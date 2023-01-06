@@ -161,16 +161,38 @@ header{
     height: 370px;
     width: 480px;
 }
+.btn-donate1{
+    background: #f51010;
+    height: 43px;
+    width: 130px;
+    border: 0;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 16px 16px;
+    color: white;
+}
 .subs{
-    height: 198px;
+    height: 150px;
     background-color: #fc9032;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.subs input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
 }
 #email{
-    height: 53px;
+    height: 23px;
     width: 200px;
     border: 0;
+    margin-top: 40px;
     padding-left: 10px;
     border-radius: 2px;
     margin-bottom: 100px;
@@ -183,5 +205,5 @@ header{
     padding-top:43px ;
 }
 .last h1{
-    margin-bottom: 24px ;
+    margin-bottom: 10px ;
 }
