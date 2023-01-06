@@ -16,8 +16,8 @@ header{
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: 0%; 
-    height: 100vh;
-    padding-bottom: 50px;
+    height: 80vh;
+    padding-bottom: 60px;
     background-blend-mode: darken;
     
 
@@ -122,13 +122,13 @@ header{
     background-color: rgba(61, 203, 177, 0.396);
     border-radius: 5px;
     padding: 23px;
-    padding-top: 62px;
+    padding-top: 42px;
 }
 .needs2{
     background-color: rgba(109, 226, 36, 0.461);
     border-radius: 5px;
     padding: 23px;
-    padding-top: 62px;
+    padding-top: 42px;
 }
 .need-title{
     color: black ;
@@ -145,23 +145,23 @@ header{
     padding-bottom: 50px;
     display: flex;
     
-    gap: 50px;
+    gap: 30px;
     margin-left: 157px;
-    margin-right: 157px;
+    margin-right: 140px;
 }
 .one-one, .one-photo{
     border-radius: 5px;
-    padding: 23px;
- 
+    padding: 0px;
+ /* border: 2px solid #121212; */
     height: 370px;
-    width: 480px;
+    width: 540px;
     font-weight: 700;
     display: inline-block;
     
 }
 .one-one img, .one-photo img{
     height: 370px;
-    width: 480px;
+    width: 540px;
 }
 .btn-donate1{
     background: #f51010;
@@ -203,7 +203,7 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    height: 170px;
+    height: 130px;
     padding-top:43px ;
 }
 .last h1{
