@@ -1,9 +1,13 @@
 *{
     padding: 0;
     margin: 0;
-
+   
 }
-.description h1, .firstdiv h1, .one-one{
+main{
+    background-color: #ece1e1;
+    padding-top: 80px;
+}
+.description h1, .firstdiv h1, .firstdiv1 h1, .one-one{
     font-family: 'Inter', sans-serif;
     margin-bottom: 20px;
 }
@@ -12,27 +16,28 @@ header{
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: 0%; 
-    height: 400px;
-    justify-content: space-around;
-    display: block;
+    height: 100vh;
+    padding-bottom: 50px;
+    background-blend-mode: darken;
+    
 
 }
 
 .description{
     display: block;
-    padding: 175px 307px ;
+    padding: 225px 307px ;
     text-align: center;
     color: white;
 }
 
 
-.ban-des, .firstdiv small{
+.ban-des, .firstdiv p, .firstdiv1 p{
     font-size: 18px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
 .btn-donate{
-    background: #FF5959;
+    background: #f51010;
     border-radius: 5px;
     padding: 16px 16px;
     gap: 8px;
@@ -47,10 +52,26 @@ header{
 .firstdiv{
     margin-top: 130px;
     text-align: center;
-    display: block;
-    margin-left: 365px;
-    margin-right: 365px;
+    justify-items: center;
+    display: inline;
+    padding-left: 365px;
+    padding-right: 365px;
+    
 }
+.firstdiv1{
+    margin-top: 120px;
+    text-align: center;
+    display: inline;
+
+    margin-bottom: 50px;
+
+}
+.firstdiv1 p{
+    justify-content: center;
+    padding-right: 360px;
+    padding-left:360px ;
+}
+
 .btn-takas{
     display: flex;
     gap: 20px;
@@ -69,8 +90,9 @@ header{
     
 }
 .taka:hover{
-    border: 2px solid #FF5959;
-    background: #FFEEEE;
+    border: 2px solid #7bcef4;
+    background: #ea8989;
+    color: orangered;
 }
 .first-form{
     margin-top: 60px;
@@ -85,22 +107,23 @@ header{
 #amount{
     margin-bottom: 10px ;
     border: 0;
+    background: transparent;
 }
 .container{
     display: flex;
-    gap: 20px;
-    box-shadow: #707070;
+    gap: 30px;
+    box-shadow: #e77979;
     margin-left: 157px;
     margin-right: 157px;
 }
 .needs1{
-    background: rgba(79, 157, 166, 0.1);
+    background-color: rgba(61, 203, 177, 0.396);
     border-radius: 5px;
     padding: 23px;
     padding-top: 62px;
 }
 .needs2{
-    background: rgba(255, 89, 89, 0.1);
+    background-color: rgba(109, 226, 36, 0.461);
     border-radius: 5px;
     padding: 23px;
     padding-top: 62px;
@@ -117,24 +140,30 @@ header{
 }
 .one, .two{
     margin-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     display: flex;
-    gap: 94px;
+    
+    gap: 50px;
     margin-left: 150px;
-    margin-right: 250px;
+    margin-right: 150px;
 }
-.one-one{
+.one-one, .one-photo{
     border-radius: 5px;
     padding: 23px;
-    padding-top: 62px;
+ 
     height: 370px;
     width: 480px;
     font-weight: 700;
+    display: inline-block;
     
 }
+.one-one img, .one-photo img{
+    height: 370px;
+    width: 480px;
+}
 .subs{
-    height: 200px;
-    background-color: #FFF4D6;
+    height: 198px;
+    background-color: #fc9032;
     text-align: center;
     margin-top: 50px;
 }
