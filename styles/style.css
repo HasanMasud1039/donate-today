@@ -25,9 +25,10 @@ header{
 
 .description{
     display: block;
-    padding: 225px 307px ;
+    padding: 235px 307px ;
     text-align: center;
     color: white;
+    
 }
 
 
@@ -108,6 +109,7 @@ header{
     margin-bottom: 10px ;
     border: 0;
     background: transparent;
+    font-size: 18px;
 }
 .container{
     display: flex;
@@ -144,8 +146,8 @@ header{
     display: flex;
     
     gap: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 157px;
+    margin-right: 157px;
 }
 .one-one, .one-photo{
     border-radius: 5px;
